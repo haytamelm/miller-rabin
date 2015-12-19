@@ -16,7 +16,7 @@ public class MillerRabin {
 		BigInteger x = new BigInteger("170141183460469231731687303715884105727");
 		
 		if(est_probablement_premier(x))
-			System.out.println("Le nombre "+ x +" est trés probablement premier");
+			System.out.println("Le nombre "+ x +" est trÃ©s probablement premier");
 		else
 			System.out.println("Le nombre "+ x +" n'est absolument pas premier");
 		
