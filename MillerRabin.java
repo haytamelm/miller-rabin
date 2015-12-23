@@ -46,7 +46,7 @@ public class MillerRabin {
              return false;
         }
         for (int i=0; BigInteger.valueOf(i).compareTo(s) < 0; i++) {
-            if (a.modPow(BigInteger.valueOf(2).pow(i).multiply(t), n).equals(n.subtract(UN))) {
+            if (a.modPow(DEUX.pow(i).multiply(t), n).equals(n.subtract(UN))) {
                 return false;
             }
         }
